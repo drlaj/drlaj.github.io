@@ -1,22 +1,30 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Permalinks
-permalink:        pretty
+permalink: /:year/:month/:day/:title/
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
-baseurl:          /
+title: Luke Jefferson
+tagline: General musings and learnings 
+url: http://lukejefferson.com
+
+paginate: 1
+
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Luke Jefferson
+  url:            http://twitter.com/drlaj
 
 # Custom vars
 version:          1.0.0
+
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/drlaj/drlaj.github.io
+
+pages_list:
+  About: '/about'
+  Archive: '/archive/'
